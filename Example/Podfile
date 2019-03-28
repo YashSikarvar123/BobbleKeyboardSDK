@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BobbleKeyboardSDK_Example' do
+  pod 'BobbleKeyboardSDK', :path => '../'
+
+  target 'BobbleKeyboardSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
