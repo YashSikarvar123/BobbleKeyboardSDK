@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BobbleKeyboardSDK/BobbleKeyboardSDK.framework'
+  s.source_files = 'Pod/Classes/BobbleKeyboardSDK.framework'
   
   # s.resource_bundles = {
   #   'BobbleKeyboardSDK' => ['BobbleKeyboardSDK/Assets/*.png']

@@ -117,7 +117,7 @@
 		9D49D44543A28E8A3D4578579FF09BF4 /* BobbleKeyboardSDK */ = {
 			isa = PBXGroup;
 			children = (
-				D316562C224CCC0E00D9E86F /* BobbleKeyboardSDK.framework */,
+				D316562E224CE17700D9E86F /* Pod */,
 				EF21B9BC6BBC36B3C865EABD31650921 /* Support Files */,
 			);
 			name = BobbleKeyboardSDK;
@@ -157,6 +157,22 @@
 			);
 			name = "Pods-BobbleKeyboardSDK_Example";
 			path = "Target Support Files/Pods-BobbleKeyboardSDK_Example";
+			sourceTree = "<group>";
+		};
+		D316562E224CE17700D9E86F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D316562F224CE18A00D9E86F /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D316562F224CE18A00D9E86F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D316562C224CCC0E00D9E86F /* BobbleKeyboardSDK.framework */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
