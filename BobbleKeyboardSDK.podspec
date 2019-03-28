@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
 
 
 s.ios.vendored_frameworks = 'Pod/Classes/BobbleKeyboardSDK.framework'
-s.source_files = 'Pod/Classes/BobbleKeyboardSDK.frameworks/Headers/*.{h}'
+
 
 
 
