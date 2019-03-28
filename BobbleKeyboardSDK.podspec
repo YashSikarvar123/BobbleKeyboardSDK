@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Pod/Classes/BobbleKeyboardSDK.framework'
+  s.source_files = 'Pod/Classes/**/*.framework'
   
   # s.resource_bundles = {
   #   'BobbleKeyboardSDK' => ['BobbleKeyboardSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.framework'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
