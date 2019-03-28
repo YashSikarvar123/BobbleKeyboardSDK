@@ -29,8 +29,16 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.ios.vendored_frameworks = 'BobbleKeyboardSDK.framework'
   s.dependency 'SwiftDate', '5.0.0'
+
+
+
+s.ios.source_files = 'Pod/Classes/**/*','Pod/Classes/BobbleKeyboardSDK.frameworks/Headers/*'
+s.ios.vendored_frameworks = 'Pod/BobbleKeyboardSDK.framework'
+s.ios.public_header_files = 'Pod/Frameworks/BobbleKeyboardSDKframeworks/Headers/*'
+
+
+
 
 
   
