@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		3704F2C686AA8CEBD052533D /* Pods-BobbleKeyboardSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobbleKeyboardSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BobbleKeyboardSDK_Tests/Pods-BobbleKeyboardSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DB8348BD2B33E1135F58C1A /* Pods-BobbleKeyboardSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobbleKeyboardSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BobbleKeyboardSDK_Tests/Pods-BobbleKeyboardSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F89977431A0565791F473FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F89977431A0565791F473FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BobbleKeyboardSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BobbleKeyboardSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* BobbleKeyboardSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BobbleKeyboardSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		614C140A5856CB8AC14860CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		614C140A5856CB8AC14860CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6200DD35670ACA83D48377DE /* Pods_BobbleKeyboardSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobbleKeyboardSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B8291721EF5DF729636FC1 /* Pods-BobbleKeyboardSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobbleKeyboardSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BobbleKeyboardSDK_Example/Pods-BobbleKeyboardSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8E47BDA356FBFAB1EECA9CEC /* Pods-BobbleKeyboardSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BobbleKeyboardSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BobbleKeyboardSDK_Example/Pods-BobbleKeyboardSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A03802F0221DDA88328698E8 /* BobbleKeyboardSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BobbleKeyboardSDK.podspec; path = ../BobbleKeyboardSDK.podspec; sourceTree = "<group>"; };
+		A03802F0221DDA88328698E8 /* BobbleKeyboardSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BobbleKeyboardSDK.podspec; path = ../BobbleKeyboardSDK.podspec; sourceTree = "<group>"; };
 		F8201F69E816E924D596F2A0 /* Pods_BobbleKeyboardSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobbleKeyboardSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -523,7 +523,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -538,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

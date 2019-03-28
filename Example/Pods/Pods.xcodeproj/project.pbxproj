@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1071B8134B29C5C6AD67D5060425846F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7892BA0342B5863DFD4ACAE1DC45F829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7B359DA33B4486C25492A95972E3E48E /* Pods-BobbleKeyboardSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87CDE6F1AD837586845A59C9CE53159A /* Pods-BobbleKeyboardSDK_Tests-dummy.m */; };
+		9F78B08AD41C2F1F07A50840F75CE583 /* Pods-BobbleKeyboardSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAD3EA057BDA56BE4435F9D32AB70F3 /* Pods-BobbleKeyboardSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE8A81A3F216A8631DEBC251FD426D32 /* Pods-BobbleKeyboardSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC04F972D8605E3E72B5547A87BB2FB7 /* Pods-BobbleKeyboardSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06B488EDE0A2C54BE6C6B5D724F6F5E /* Pods-BobbleKeyboardSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A54FD579EA5830B2015045971DFE3B /* Pods-BobbleKeyboardSDK_Example-dummy.m */; };
+		C68D283EF6A79E06C558BAE80C758C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D316562D224CCC0E00D9E86F /* BobbleKeyboardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D316562C224CCC0E00D9E86F /* BobbleKeyboardSDK.framework */; };
+		DA0AF375FE418B4C136D5E5A71609046 /* BobbleKeyboardSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A7D39150BB26571AA15C21E89B55AEC /* BobbleKeyboardSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC546486A4F3B8973A45F0AE09938FC /* BobbleKeyboardSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B28E25493AC85557BE0DFB07C46AE33 /* BobbleKeyboardSDK-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ACEA7A17D157A90807F633D2D926DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29B24BD4597874CDD40B739EED78411;
+			remoteInfo = BobbleKeyboardSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056438996C3D95582E7B27EECFA8FA6D /* Pods-BobbleKeyboardSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobbleKeyboardSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		10FF50EDEEFD5C37A24E7F3F9872FD75 /* Pods-BobbleKeyboardSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobbleKeyboardSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		157DB2019C0B167C329666560D1A04AA /* BobbleKeyboardSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BobbleKeyboardSDK.xcconfig; sourceTree = "<group>"; };
+		1AE8D4EAA208504A72F0D076E23B6997 /* Pods-BobbleKeyboardSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobbleKeyboardSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		3BF8E76C55A77B69899263B2DB564F75 /* BobbleKeyboardSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BobbleKeyboardSDK-prefix.pch"; sourceTree = "<group>"; };
+		40AE36DC6CE2D16F70DD10BB9B153D82 /* Pods-BobbleKeyboardSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BobbleKeyboardSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		4B28E25493AC85557BE0DFB07C46AE33 /* BobbleKeyboardSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BobbleKeyboardSDK-dummy.m"; sourceTree = "<group>"; };
+		4F4D112836C5B156CE7C3E8257A53B66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C05ABB4A224DA83C274F5F85FBFA55 /* Pods-BobbleKeyboardSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BobbleKeyboardSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		64196D19D2AA2E3361874312389501AF /* Pods-BobbleKeyboardSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BobbleKeyboardSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6611C207E79BE534EDC707E04052EFC6 /* Pods_BobbleKeyboardSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobbleKeyboardSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAC397D91C6084CCA844AE8977CDA5D /* Pods-BobbleKeyboardSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BobbleKeyboardSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		82A54FD579EA5830B2015045971DFE3B /* Pods-BobbleKeyboardSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BobbleKeyboardSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		8747A489B9D0328B184C2B7D9E0A8EDE /* BobbleKeyboardSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BobbleKeyboardSDK.modulemap; sourceTree = "<group>"; };
+		87CDE6F1AD837586845A59C9CE53159A /* Pods-BobbleKeyboardSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BobbleKeyboardSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		9195C1EB6D36C433E6DAF4BA0C30660A /* Pods-BobbleKeyboardSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BobbleKeyboardSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947BB5C430749E0CF9D71A9DCB252FC0 /* Pods-BobbleKeyboardSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobbleKeyboardSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A7D39150BB26571AA15C21E89B55AEC /* BobbleKeyboardSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BobbleKeyboardSDK-umbrella.h"; sourceTree = "<group>"; };
+		9AA01FCBC1FF42AE5710CA73B676B135 /* Pods-BobbleKeyboardSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobbleKeyboardSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A1DDD7758CDCBCDB32F3860C695A5FDE /* Pods-BobbleKeyboardSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BobbleKeyboardSDK_Example.modulemap"; sourceTree = "<group>"; };
+		ACAD3EA057BDA56BE4435F9D32AB70F3 /* Pods-BobbleKeyboardSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BobbleKeyboardSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		B6E4327F4CEA838A586C168DD05F4AB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B90BE77D8B54521D7E99140E6338D2E9 /* Pods-BobbleKeyboardSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobbleKeyboardSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC04F972D8605E3E72B5547A87BB2FB7 /* Pods-BobbleKeyboardSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BobbleKeyboardSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CD90F3A55EDD99D59E62C76BFFED694D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02F9992E35CEC426182944541AB281A /* Pods-BobbleKeyboardSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BobbleKeyboardSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D316562C224CCC0E00D9E86F /* BobbleKeyboardSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BobbleKeyboardSDK.framework; sourceTree = "<group>"; };
+		F2E4EDCB420F824968C82ECDB5C6DDED /* Pods-BobbleKeyboardSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BobbleKeyboardSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F6241D9E9CF02DF7903607F72B77D6 /* Pods_BobbleKeyboardSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BobbleKeyboardSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE806182E41900D54CC7928A43879F4 /* BobbleKeyboardSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BobbleKeyboardSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002C625243E5F736079F3895580735ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1071B8134B29C5C6AD67D5060425846F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D91F9A80F61A4B74D0188F36489A8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316562D224CCC0E00D9E86F /* BobbleKeyboardSDK.framework in Frameworks */,
+				C68D283EF6A79E06C558BAE80C758C2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427AED27F82C4924D19FB3800F9F7A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7892BA0342B5863DFD4ACAE1DC45F829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A423FE696A0B7055C244B484E390529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE806182E41900D54CC7928A43879F4 /* BobbleKeyboardSDK.framework */,
+				6611C207E79BE534EDC707E04052EFC6 /* Pods_BobbleKeyboardSDK_Example.framework */,
+				F7F6241D9E9CF02DF7903607F72B77D6 /* Pods_BobbleKeyboardSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EB84111FA3F0B445E9874912B8D813CA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6A423FE696A0B7055C244B484E390529 /* Products */,
+				A1E0C03B06D0DCB78114E5854FA82EE0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D49D44543A28E8A3D4578579FF09BF4 /* BobbleKeyboardSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D316562C224CCC0E00D9E86F /* BobbleKeyboardSDK.framework */,
+				EF21B9BC6BBC36B3C865EABD31650921 /* Support Files */,
+			);
+			name = BobbleKeyboardSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A1E0C03B06D0DCB78114E5854FA82EE0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D07ECB666D4999406D416CFB5ABB2789 /* Pods-BobbleKeyboardSDK_Example */,
+				D8C25E9B7A64AD49970429A27105A257 /* Pods-BobbleKeyboardSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D07ECB666D4999406D416CFB5ABB2789 /* Pods-BobbleKeyboardSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4F4D112836C5B156CE7C3E8257A53B66 /* Info.plist */,
+				A1DDD7758CDCBCDB32F3860C695A5FDE /* Pods-BobbleKeyboardSDK_Example.modulemap */,
+				64196D19D2AA2E3361874312389501AF /* Pods-BobbleKeyboardSDK_Example-acknowledgements.markdown */,
+				7DAC397D91C6084CCA844AE8977CDA5D /* Pods-BobbleKeyboardSDK_Example-acknowledgements.plist */,
+				82A54FD579EA5830B2015045971DFE3B /* Pods-BobbleKeyboardSDK_Example-dummy.m */,
+				D02F9992E35CEC426182944541AB281A /* Pods-BobbleKeyboardSDK_Example-frameworks.sh */,
+				1AE8D4EAA208504A72F0D076E23B6997 /* Pods-BobbleKeyboardSDK_Example-resources.sh */,
+				ACAD3EA057BDA56BE4435F9D32AB70F3 /* Pods-BobbleKeyboardSDK_Example-umbrella.h */,
+				F2E4EDCB420F824968C82ECDB5C6DDED /* Pods-BobbleKeyboardSDK_Example.debug.xcconfig */,
+				10FF50EDEEFD5C37A24E7F3F9872FD75 /* Pods-BobbleKeyboardSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-BobbleKeyboardSDK_Example";
+			path = "Target Support Files/Pods-BobbleKeyboardSDK_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D8C25E9B7A64AD49970429A27105A257 /* Pods-BobbleKeyboardSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD90F3A55EDD99D59E62C76BFFED694D /* Info.plist */,
+				40AE36DC6CE2D16F70DD10BB9B153D82 /* Pods-BobbleKeyboardSDK_Tests.modulemap */,
+				9195C1EB6D36C433E6DAF4BA0C30660A /* Pods-BobbleKeyboardSDK_Tests-acknowledgements.markdown */,
+				54C05ABB4A224DA83C274F5F85FBFA55 /* Pods-BobbleKeyboardSDK_Tests-acknowledgements.plist */,
+				87CDE6F1AD837586845A59C9CE53159A /* Pods-BobbleKeyboardSDK_Tests-dummy.m */,
+				9AA01FCBC1FF42AE5710CA73B676B135 /* Pods-BobbleKeyboardSDK_Tests-frameworks.sh */,
+				056438996C3D95582E7B27EECFA8FA6D /* Pods-BobbleKeyboardSDK_Tests-resources.sh */,
+				CC04F972D8605E3E72B5547A87BB2FB7 /* Pods-BobbleKeyboardSDK_Tests-umbrella.h */,
+				947BB5C430749E0CF9D71A9DCB252FC0 /* Pods-BobbleKeyboardSDK_Tests.debug.xcconfig */,
+				B90BE77D8B54521D7E99140E6338D2E9 /* Pods-BobbleKeyboardSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-BobbleKeyboardSDK_Tests";
+			path = "Target Support Files/Pods-BobbleKeyboardSDK_Tests";
+			sourceTree = "<group>";
+		};
+		EB84111FA3F0B445E9874912B8D813CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D49D44543A28E8A3D4578579FF09BF4 /* BobbleKeyboardSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF21B9BC6BBC36B3C865EABD31650921 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8747A489B9D0328B184C2B7D9E0A8EDE /* BobbleKeyboardSDK.modulemap */,
+				157DB2019C0B167C329666560D1A04AA /* BobbleKeyboardSDK.xcconfig */,
+				4B28E25493AC85557BE0DFB07C46AE33 /* BobbleKeyboardSDK-dummy.m */,
+				3BF8E76C55A77B69899263B2DB564F75 /* BobbleKeyboardSDK-prefix.pch */,
+				9A7D39150BB26571AA15C21E89B55AEC /* BobbleKeyboardSDK-umbrella.h */,
+				B6E4327F4CEA838A586C168DD05F4AB5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BobbleKeyboardSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8580A787D05716D4CC7067B759BDF262 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8A81A3F216A8631DEBC251FD426D32 /* Pods-BobbleKeyboardSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB87B45CAAA3D4667B1F0D2C8A119F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F78B08AD41C2F1F07A50840F75CE583 /* Pods-BobbleKeyboardSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9709C9D61A879BF73D2EB46D093C3323 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0AF375FE418B4C136D5E5A71609046 /* BobbleKeyboardSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96067A4C33E0DE1524898C7DF6B63009 /* Pods-BobbleKeyboardSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DE617B42FE82E046AE79BF22ACC4E4C /* Build configuration list for PBXNativeTarget "Pods-BobbleKeyboardSDK_Example" */;
+			buildPhases = (
+				55D9F3BF16B8C11043312730FDC489FC /* Sources */,
+				002C625243E5F736079F3895580735ED /* Frameworks */,
+				8EB87B45CAAA3D4667B1F0D2C8A119F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5ACCCEB706A5A7DF16E090F420B5EA /* PBXTargetDependency */,
+			);
+			name = "Pods-BobbleKeyboardSDK_Example";
+			productName = "Pods-BobbleKeyboardSDK_Example";
+			productReference = 6611C207E79BE534EDC707E04052EFC6 /* Pods_BobbleKeyboardSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D00946E278DA8DCCD476DFC4EACCF1DD /* Pods-BobbleKeyboardSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5AA2A750048318EFFC1C43779D90B0 /* Build configuration list for PBXNativeTarget "Pods-BobbleKeyboardSDK_Tests" */;
+			buildPhases = (
+				1DC0483A47795AFCC38957972EF0465B /* Sources */,
+				427AED27F82C4924D19FB3800F9F7A85 /* Frameworks */,
+				8580A787D05716D4CC7067B759BDF262 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BobbleKeyboardSDK_Tests";
+			productName = "Pods-BobbleKeyboardSDK_Tests";
+			productReference = F7F6241D9E9CF02DF7903607F72B77D6 /* Pods_BobbleKeyboardSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E29B24BD4597874CDD40B739EED78411 /* BobbleKeyboardSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC6AF2B705E08713F0FAE34B0C737DE /* Build configuration list for PBXNativeTarget "BobbleKeyboardSDK" */;
+			buildPhases = (
+				BE114791925DE4FB8992E1FD64AD3A0D /* Sources */,
+				3D91F9A80F61A4B74D0188F36489A8EA /* Frameworks */,
+				9709C9D61A879BF73D2EB46D093C3323 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BobbleKeyboardSDK;
+			productName = BobbleKeyboardSDK;
+			productReference = FEE806182E41900D54CC7928A43879F4 /* BobbleKeyboardSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6A423FE696A0B7055C244B484E390529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29B24BD4597874CDD40B739EED78411 /* BobbleKeyboardSDK */,
+				96067A4C33E0DE1524898C7DF6B63009 /* Pods-BobbleKeyboardSDK_Example */,
+				D00946E278DA8DCCD476DFC4EACCF1DD /* Pods-BobbleKeyboardSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC0483A47795AFCC38957972EF0465B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B359DA33B4486C25492A95972E3E48E /* Pods-BobbleKeyboardSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D9F3BF16B8C11043312730FDC489FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06B488EDE0A2C54BE6C6B5D724F6F5E /* Pods-BobbleKeyboardSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE114791925DE4FB8992E1FD64AD3A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC546486A4F3B8973A45F0AE09938FC /* BobbleKeyboardSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B5ACCCEB706A5A7DF16E090F420B5EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BobbleKeyboardSDK;
+			target = E29B24BD4597874CDD40B739EED78411 /* BobbleKeyboardSDK */;
+			targetProxy = 9ACEA7A17D157A90807F633D2D926DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		041C2826F5630BC45F5890554EE9CF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E4EDCB420F824968C82ECDB5C6DDED /* Pods-BobbleKeyboardSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Example/Pods-BobbleKeyboardSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobbleKeyboardSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0E6A3F0AE44499B68654822B18F892ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157DB2019C0B167C329666560D1A04AA /* BobbleKeyboardSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BobbleKeyboardSDK/BobbleKeyboardSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BobbleKeyboardSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BobbleKeyboardSDK/BobbleKeyboardSDK.modulemap";
+				PRODUCT_NAME = BobbleKeyboardSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		368890999E9244A1909104CC506547BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90BE77D8B54521D7E99140E6338D2E9 /* Pods-BobbleKeyboardSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Tests/Pods-BobbleKeyboardSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobbleKeyboardSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49D7536FFE63128D4A21A763A44F6543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157DB2019C0B167C329666560D1A04AA /* BobbleKeyboardSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BobbleKeyboardSDK/BobbleKeyboardSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BobbleKeyboardSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BobbleKeyboardSDK/BobbleKeyboardSDK.modulemap";
+				PRODUCT_NAME = BobbleKeyboardSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		95479E1404FE8B40E88A97441347D954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 947BB5C430749E0CF9D71A9DCB252FC0 /* Pods-BobbleKeyboardSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Tests/Pods-BobbleKeyboardSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobbleKeyboardSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEA45FE86154FA1370A6398BD31B0295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FF50EDEEFD5C37A24E7F3F9872FD75 /* Pods-BobbleKeyboardSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BobbleKeyboardSDK_Example/Pods-BobbleKeyboardSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BobbleKeyboardSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DE617B42FE82E046AE79BF22ACC4E4C /* Build configuration list for PBXNativeTarget "Pods-BobbleKeyboardSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041C2826F5630BC45F5890554EE9CF43 /* Debug */,
+				EEA45FE86154FA1370A6398BD31B0295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5AA2A750048318EFFC1C43779D90B0 /* Build configuration list for PBXNativeTarget "Pods-BobbleKeyboardSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95479E1404FE8B40E88A97441347D954 /* Debug */,
+				368890999E9244A1909104CC506547BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC6AF2B705E08713F0FAE34B0C737DE /* Build configuration list for PBXNativeTarget "BobbleKeyboardSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D7536FFE63128D4A21A763A44F6543 /* Debug */,
+				0E6A3F0AE44499B68654822B18F892ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

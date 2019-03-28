@@ -1,0 +1,6 @@
+framework module BobbleKeyboardSDK {
+  umbrella header "BobbleKeyboardSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

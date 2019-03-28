@@ -1,0 +1,22 @@
+{
+  "name": "BobbleKeyboardSDK",
+  "version": "0.1.0",
+  "summary": "A short description of BobbleKeyboardSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YashSikarvar123/BobbleKeyboardSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YashSikarvar123": "yashvant@bobble.ai"
+  },
+  "source": {
+    "git": "https://github.com/YashSikarvar123/BobbleKeyboardSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BobbleKeyboardSDK/Classes/**/*"
+}
