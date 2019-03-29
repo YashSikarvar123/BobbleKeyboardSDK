@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # BobbleKeyboardSDK
 
 [![CI Status](https://img.shields.io/travis/YashSikarvar123/BobbleKeyboardSDK.svg?style=flat)](https://travis-ci.org/YashSikarvar123/BobbleKeyboardSDK)
@@ -28,6 +28,4 @@ YashSikarvar123, yashvant@bobble.ai
 ## License
 
 BobbleKeyboardSDK is available under the MIT license. See the LICENSE file for more info.
-=======
-# BobbleKeyboardSDK
->>>>>>> 969b62014b8bed3fcf91e840fe7df1125df7c023
+
