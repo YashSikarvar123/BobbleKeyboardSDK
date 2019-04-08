@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/touchtalent/BobbleKeyboardSDK'
+  s.homepage         = 'https://github.com/touchtalent/BobbleKeyboardSDK-Pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'YashSikarvar123' => 'yashvant@bobble.ai' }
